@@ -1,0 +1,39 @@
+import styled from 'styled-components';
+
+export const Wrapper = styled.div`
+  background: var(--darkGrey);
+  padding: 0 20px;
+`;
+
+export const MainName = styled.div`
+  color: var(--white);
+  font-size: 40px;
+  font-weight: bolder;
+  letter-spacing: 4px;
+`;
+
+export const Content = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: var(--maxWidth);
+  padding: 0;
+  margin: 0 auto;
+`;
+
+export const MainLogoImg = styled.img`
+  width: 50px;
+  transform: rotate(90deg);
+  @media screen and (max-width: 500px) {
+    width: 40px;
+    transform: rotate(0deg);
+  }
+`;
+
+export const DatabaseLogoImg = styled.img`
+  width: 50px;
+
+  @media screen and (max-width: 500px) {
+    width: 40px;
+  }
+`;
