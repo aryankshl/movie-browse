@@ -13,6 +13,9 @@ export const MainName = styled.div`
   font-size: 40px;
   font-weight: bolder;
   letter-spacing: 4px;
+  @media screen and (max-width: 500px){
+    display: none;
+  }
 `;
 
 export const Content = styled.div`
