@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 //Router
-import { BrowserRouter as Router, Routes , Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 //Components
 import Header from './components/Common/Header';
@@ -19,22 +19,23 @@ import ScrollToTop from './components/Common/ScrollToTop';
 import { GlobalStyle } from './GlobalStyle';
 //
 const App = () => {
+  const [username, setUserName] = useState(localStorage.getItem("username"));
   return (
     <Router>
-        <ScrollToTop />
-        <Header />
-        <Routes>
-          <Route path='/' element={<Home />}/>
-          <Route path='/submit?' element={<Home />}/>
-          <Route path='/AboutUs' element={<AboutUs/>} />
-          <Route path='/SignUp' element={<SignUp/>} />
-          <Route path='/ContactUs' element={<ContactUs/>}/>
-          <Route path='/Login' element={<Login />} />
-          <Route path='/:movieId' element={<Movie />} />
-          <Route path='/*' element={<NotFound />} />
-        </Routes>
-        <Footer />
-        <GlobalStyle />
+      <ScrollToTop />
+      <Header username={username} setUserName={unm => setUserName(unm)} />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/submit?' element={<Home />}/>
+        <Route path='/AboutUs' element={<AboutUs />} />
+        <Route path='/ContactUs' element={<ContactUs />} />
+        <Route path='/SignUp' element={<SignUp setUserName={unm => setUserName(unm)} />} />
+        <Route path='/Login' element={<Login setUserName={unm => setUserName(unm)} />} />
+        <Route path='/:movieId' element={<Movie />} />
+        <Route path='/*' element={<NotFound />} />
+      </Routes>
+      <Footer />
+      <GlobalStyle />
     </Router>
 
   )
