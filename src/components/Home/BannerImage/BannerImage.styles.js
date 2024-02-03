@@ -9,6 +9,7 @@ export const Wrapper = styled.div`
     url(${({ image }) => image}), var(--darkGrey);
   background-size: 100%, cover;
   background-position: center;
+  border-radius: 10px;
   margin: 13px;
   height: 600px;
   display: inline-block;

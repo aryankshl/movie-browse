@@ -67,5 +67,6 @@ export const useHomeFetch = () => {
     if(!searchTerm) sessionStorage.setItem('homeState', JSON.stringify(state));
   },[searchTerm, state])
 
+
   return {state: state,loading: loading,error: error,setSearchTerm: setSearchTerm, searchTerm: searchTerm,setIsLoadinMore: setIsLoadingMore};
 };
