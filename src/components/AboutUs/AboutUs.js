@@ -4,7 +4,7 @@ import React from 'react';
 import Profile from './Profile';
 
 //Styles
-import { Wrapper } from './AboutUs.styles';
+import { Wrapper, CenteredHeader, Heading, Description } from './AboutUs.styles';
 
 //Images
 import NoImage from './../../images/no_image.jpg';
@@ -22,6 +22,16 @@ import SatvikImage from '../../images/Satvik-Dubey-Profile-Picture.jpg';
 const AboutUs = () => {
   return (
     <>
+      <CenteredHeader>
+        <Heading>
+          About Us
+        </Heading>
+        <Description>
+          Hello! We are a team of 7 (Group 4).
+          <br/>
+          This is out End Semester Project, where we have designed a Movie Review Website using React.
+        </Description>
+      </CenteredHeader>
       <Wrapper>
           <Profile
             image={NoImage}
