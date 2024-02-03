@@ -28,7 +28,8 @@ const Login = () => {
         value={password}
         onChange={(e) => setPassword(e.target.value)}
       />
-      <Button text='Login' callback="Function that handles the submittion" />
+      <Button text='Login' />
+      {/* <Button text='Login' callback="Function that handles the submittion" /> */}
       <Link to='/SignUp' style={{ textDecoration: 'none' }}>
         <SignUp>Sign up</SignUp>
       </Link>

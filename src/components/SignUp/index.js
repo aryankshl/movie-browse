@@ -37,7 +37,8 @@ const SignUp = () => {
         value={password}
         onChange="Functions that handles the input"
       />
-      <Button text='Sign Up' callback="Function that handles the submittion" />
+      <Button text='Sign Up' />
+      {/* <Button text='Sign Up' callback="Function that handles the submittion" /> */}
       <Link to='/Login' style={{ textDecoration: 'none' }}>
         <Login>Login</Login>
       </Link>
