@@ -1,6 +1,4 @@
 require('dotenv').config();
-const DB_PASS = process.env.MONGODB_PASSWORD;
-
 const express = require('express');
 const cors = require("cors");
 const crypto = require("crypto");
@@ -9,7 +7,7 @@ app.use(express.json());
 app.use(cors());
 
 const { MongoClient, ServerApiVersion } = require('mongodb');
-const uri = "mongodb+srv://moviereviewhost:" + DB_PASS + "@moviereviewacademicproj.9vj0k.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const uri = process.env.MONGODB_URI;
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 const connection = client.connect();
 
