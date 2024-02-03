@@ -31,6 +31,9 @@ export const Content = styled.div`
      padding: 5px 30px;
      border: 2px solid red;
      color: var(--white);
+     :hover {
+        opacity: 0.8;
+     }
   }
 `;
 

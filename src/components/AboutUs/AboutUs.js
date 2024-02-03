@@ -11,7 +11,7 @@ import NoImage from './../../images/no_image.jpg';
 import RaushanImage from '../../images/Raushan-kumar-profile-picture.jpeg';
 import AdityaImage from '../../images/Aditya-Yadav-profile-picture.jpg';
 import AnimeshImage from '../../images/Animesh-sahu-profile-picture.jpeg';
-// import Image from '../../images/';
+import SatvikImage from '../../images/Satvik-Dubey-Profile-Picture.jpg';
 // import Image from '../../images/';
 // // import Image from '../../images/';
 // import Image from '../../images/';
@@ -59,11 +59,11 @@ const AboutUs = () => {
             phoneNo='+91-9335734573'
           />
           <Profile
-            image={NoImage}
-            name=''
-            rollNo=''
-            Link=''
-            phoneNo=''
+            image={SatvikImage}
+            name='Satvik Dubey'
+            rollNo='LCS2021017'
+            Link='LCS2021017@iiitl.ac.in'
+            phoneNo='+91-9950234151'
           />
           <Profile
             image={AdityaImage}

@@ -12,6 +12,7 @@ import Login from './components/Login';
 import Movie from './components/Movies/Movies';
 import Footer from './components/Common/Footer';
 import NotFound from './components/NotFound/NotFound';
+import ScrollToTop from './components/Common/ScrollToTop';
 
 // Styles
 import { GlobalStyle } from './GlobalStyle';
@@ -19,6 +20,7 @@ import { GlobalStyle } from './GlobalStyle';
 const App = () => {
   return (
     <Router>
+        <ScrollToTop />
         <Header />
         <Routes>
           <Route path='/' element={<Home />}/>

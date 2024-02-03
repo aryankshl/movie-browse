@@ -10,8 +10,7 @@ import NoImage from './../../images/no_image.jpg';
 import RaushanImage from '../../images/Raushan-kumar-profile-picture.jpeg';
 import AdityaImage from '../../images/Aditya-Yadav-profile-picture.jpg';
 import AnimeshImage from '../../images/Animesh-sahu-profile-picture.jpeg';
-
-
+import SatvikImage from '../../images/Satvik-Dubey-Profile-Picture.jpg';
 
 const AboutUs = () => {
   return (
@@ -53,11 +52,11 @@ const AboutUs = () => {
             email='LCS2021036@iiitl.ac.in'
           />
           <ContactInfo
-            image={NoImage}
-            name=''
-            Github=''
-            LinkedIn=''
-            email=''
+            image={SatvikImage}
+            name='Satvik Dubey'
+            Github='https://github.com/satvik225'
+            LinkedIn='https://www.linkedin.com/in/satvik-dubey-1499b1233/'
+            email='LCS2021017@iiitl.ac.in'
           />
           <ContactInfo
             image={AdityaImage}
