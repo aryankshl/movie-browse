@@ -41,11 +41,11 @@ const AboutUs = () => {
           Connect with us on any of the social network below!
         </Description>
         <MediaIcons>
-          <a href="#"><FontAwesomeIcon icon={faFacebookF}></FontAwesomeIcon></a>
-          <a href="#"><FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon></a>
-          <a href="#"><FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon></a>
-          <a href="#"><FontAwesomeIcon icon={faYoutube}></FontAwesomeIcon></a>
-          <a href="#"><FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon></a>
+          <button><FontAwesomeIcon icon={faFacebookF}></FontAwesomeIcon></button>
+          <button><FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon></button>
+          <button><FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon></button>
+          <button><FontAwesomeIcon icon={faYoutube}></FontAwesomeIcon></button>
+          <button><FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon></button>
         </MediaIcons>
       </CenteredContent>
   );

@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Link, useSearchParams } from 'react-router-dom';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 //Images
 import MainLogo from '../../../images/Main-logo.svg';
@@ -7,7 +7,6 @@ import DatabaseLogo from '../../../images/Database-logo.svg';
 
 //Styles import
 import { Wrapper, Content, MainLogoImg, DatabaseLogoImg, MainName } from './Header.styles';
-import Button from '../Button';
 
 const Header = ({username, setUserName}) => {
   return (

@@ -20,7 +20,7 @@ export const Description = styled.p`
 
 export const MediaIcons = styled.div`
 color: var(--white);
-a {
+button {
     font-size: 16px;
     height: 45px;
     width: 45px;

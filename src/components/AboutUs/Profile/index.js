@@ -11,7 +11,7 @@ const Profile = ({ name, rollNo, email, linkedIn, phoneNo, image }) => (
     <Image src={image} alt="Profile Picture"/>
     <Content>{name} ({rollNo})</Content>
     <Content>
-      <a href={"emailto:" + email} style={vertical_margin}><FontAwesomeIcon icon={faEnvelope} /></a>
+      <a href={"mailto:" + email} style={vertical_margin}><FontAwesomeIcon icon={faEnvelope} /></a>
       <a href={linkedIn} style={vertical_margin}><FontAwesomeIcon icon={faLinkedin} /></a>
       <a href={"tel:" + phoneNo} style={vertical_margin}><FontAwesomeIcon icon={faPhone} /></a>
     </Content>
