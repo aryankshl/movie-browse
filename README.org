@@ -1,5 +1,5 @@
 #+TITLE: Movies Review
-#+AUTHOR: Aditya Yadav
+#+AUTHOR: Aryan Kaushal
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="Readme-resources/style.css" />
 
 * Movie Review
