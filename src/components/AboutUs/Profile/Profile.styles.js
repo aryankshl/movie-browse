@@ -7,7 +7,10 @@ export const Wrapper = styled.div`
     margin: 0 10px;
 `;
 
-export const Content = styled.div`
+export const Content = styled.span`
+    max-width: 300px;
+    word-wrap: break-all;
+    text-align: center;
     color: var(--white);
     font-size: 20px;
     font-weight: bolder;
@@ -26,3 +29,7 @@ export const Image = styled.img`
   object-fit: cover;
   border-radius: 15px;
 `;
+
+export const vertical_margin = {
+    margin: '0 5px'
+};
