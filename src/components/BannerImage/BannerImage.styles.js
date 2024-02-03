@@ -18,6 +18,9 @@ export const Wrapper = styled.div`
   @media screen and (max-width: 1300px){
     width: 100%;
   }
+  @media screen and (max-width: 500px){
+    display: none;
+  }
   @keyframes animateHeroImage {
     from {
       opacity: 0;
@@ -42,6 +45,10 @@ export const Text = styled.div`
   margin-right: 20px;
   min-height: 100px;
   color: var(--white);
+  :hover {
+      opacity: 0.8;
+  }
+
   h1 {
     font-size: var(--fontSuperBig);
     margin: 5px 0;

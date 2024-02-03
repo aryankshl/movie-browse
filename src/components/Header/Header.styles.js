@@ -25,7 +25,7 @@ export const MainLogoImg = styled.img`
   width: 50px;
   transform: rotate(90deg);
   @media screen and (max-width: 500px) {
-    width: 40px;
+    width: 20px;
     transform: rotate(0deg);
   }
 `;
@@ -34,6 +34,6 @@ export const DatabaseLogoImg = styled.img`
   width: 50px;
 
   @media screen and (max-width: 500px) {
-    width: 40px;
+    width: 30px;
   }
 `;

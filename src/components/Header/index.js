@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 //Images
 import DatabaseLogo from '../../images/Database-logo.svg';
@@ -10,9 +11,11 @@ import { Wrapper, Content, MainLogoImg, DatabaseLogoImg, MainName } from './Head
 const Header = () => (
   <Wrapper>
     <Content>
-      <MainLogoImg src={MainLogo} alt="tmdb-logo"/>
+      <Link to='/'>
+        <MainLogoImg src={MainLogo} alt="tmdb-logo" />
+      </Link>
       <MainName>Movies Review</MainName>
-      <DatabaseLogoImg src={DatabaseLogo} alt="rmdb-logo"/>
+      <DatabaseLogoImg src={DatabaseLogo} alt="rmdb-logo" />
     </Content>
   </Wrapper>
 )

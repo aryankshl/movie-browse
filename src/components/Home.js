@@ -23,6 +23,8 @@ const Home = () => {
     <>
       {!searchTerm && state.results[0] && state? (
         <BannerImage
+          clickable={true}
+          movieId={state.results[0].id}
           image={`${IMAGE_BASE_URL}${BACKDROP_SIZE}${state.results[0].backdrop_path}`}
           title={state.results[0].original_title}
           text={state.results[0].overview}
@@ -33,6 +35,8 @@ const Home = () => {
       ) : null}
       {!searchTerm && state.results[1] ? (
         <BannerImage
+          clickable={true}
+          movieId={state.results[1].id}
           image={`${IMAGE_BASE_URL}${BACKDROP_SIZE}${state.results[1].backdrop_path}`}
           title={state.results[1].original_title}
           text={state.results[1].overview}
@@ -50,7 +54,7 @@ const Home = () => {
             image={
               movie.poster_path ? `${IMAGE_BASE_URL}${POSTER_SIZE}${movie.poster_path}`: NoImage
             }
-            movieid={movie.id}
+            movieId={movie.id}
           />
           ))}
       </Grid>
