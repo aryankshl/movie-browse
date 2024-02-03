@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 //Images
@@ -7,13 +7,8 @@ import MainLogo from '../../../images/Main-logo.svg';
 
 //Styles import
 import { Wrapper, Content, MainLogoImg, DatabaseLogoImg, MainName } from './Header.styles';
-//Context
-import { Context } from './../../../context';
 
-const Header = () => {
-  const [user] = useContext(Context);
-  console.log(user);
-  return (
+const Header = () => (
   <Wrapper>
     <Content>
       <Link to='/'>
@@ -26,7 +21,6 @@ const Header = () => {
       <DatabaseLogoImg src={DatabaseLogo} alt="rmdb-logo" />
     </Content>
   </Wrapper>
-  );
-}
+);
 
 export default Header;

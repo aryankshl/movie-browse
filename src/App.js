@@ -13,16 +13,12 @@ import Movie from './components/Movies/Movies';
 import Footer from './components/Common/Footer';
 import NotFound from './components/NotFound/NotFound';
 
-//Context
-import UserProvider from './context';
-
 // Styles
 import { GlobalStyle } from './GlobalStyle';
 
 const App = () => {
   return (
     <Router>
-      <UserProvider>
         <Header />
         <Routes>
           <Route path='/' element={<Home />}/>
@@ -34,7 +30,6 @@ const App = () => {
         </Routes>
         <Footer />
         <GlobalStyle />
-      </UserProvider>
     </Router>
 
   )
