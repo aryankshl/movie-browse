@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Helper fucntions
-import { calcTime, convertMoney } from '../../helpers';
+import { calcTime, convertMoney } from './../../../helpers';
 
 // Styles
 

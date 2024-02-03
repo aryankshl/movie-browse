@@ -20,7 +20,6 @@ export const Content = styled.div`
     font-size: var(--fontMid);
     color: var(--white);
     padding-right: 10px;
-    text-decoration: underline;
 
     @media screen and (max-width: 768px) {
       font-size: var(--fontSmall);

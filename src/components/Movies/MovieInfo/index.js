@@ -1,10 +1,10 @@
 import React from 'react';
 // Components
-import Thumbnail from '../Thumbnail';
+import Thumbnail from './../../Common/Thumbnail';
 // Config
-import { IMAGE_BASE_URL, POSTER_SIZE } from '../../config';
+import { IMAGE_BASE_URL, POSTER_SIZE } from './../../../config';
 // Image
-import NoImage from '../../images/no_image.jpg';
+import NoImage from './../../../images/no_image.jpg';
 // Styles
 import { Wrapper, Content, Text } from './MovieInfo.styles';
 
