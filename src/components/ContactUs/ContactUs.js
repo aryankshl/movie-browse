@@ -4,80 +4,68 @@ import React from 'react';
 import ContactInfo from './ContactInfo';
 
 //Styles
-import { Wrapper, Content } from './ContactUs.styles';
+import { Wrapper } from './ContactUs.styles';
 
 import NoImage from './../../images/no_image.jpg';
+import RaushanImage from '../../images/Raushan-kumar-profile-picture.jpeg';
+import AdityaImage from '../../images/Aditya-Yadav-profile-picture.jpg';
+import AnimeshImage from '../../images/Animesh-sahu-profile-picture.jpeg';
+
 
 
 const AboutUs = () => {
   return (
     <>
       <Wrapper>
-        <Content>
           <ContactInfo
             image={NoImage}
-            name='test1'
-            rollNo='30'
-            Link='test.com'
-            phoneNo='test-900'
+            name='Mani Raj Gupta'
+            Github='https://github.com/ManiRajGupta'
+            LinkedIn='https://www.linkedin.com/in/mani-raj-gupta-11b329224/'
+            email='LCS2021037@iiitl.ac.in'
           />
-        </Content>
-        <Content>
           <ContactInfo
             image={NoImage}
-            name='Name'
-            rollNo='RollNo'
-            Link='Github Link'
-            phoneNo='Phone NO'
+            name='Samudrala Sharath Chandra'
+            Github='https://github.com/sharath-iiitl'
+            LinkedIn='https://www.linkedin.com/in/sharath-chandra-4b7023229/'
+            email='LCS2021027@iiitl.ac.in'
           />
-        </Content>
-        <Content>
+          <ContactInfo
+            image={RaushanImage}
+            name='Raushan kumar'
+            Github='https://github.com/raushan6760'
+            LinkedIn='https://www.linkedin.com/in/raushan-kumar-781a9421a'
+            email='LCS2021032@iiitl.ac.in'
+          />
+          <ContactInfo
+            image={AnimeshImage}
+            name='Animesh Sahu'
+            Github='https://github.com/Animeshz'
+            LinkedIn='https://www.linkedin.com/in/animesh-sahu-5a327520b/'
+            email='LCS2021035@iiitl.ac.in'
+          />
           <ContactInfo
             image={NoImage}
-            name='test3'
-            rollNo='30'
-            Link='test.com'
-            phoneNo='test-900'
+            name='Abhishek Kumar'
+            Github='https://github.com/ABDcan'
+            LinkedIn='https://www.linkedin.com/in/abhishek-kumar-8a99a6228/'
+            email='LCS2021036@iiitl.ac.in'
           />
-        </Content>
-        <Content>
           <ContactInfo
             image={NoImage}
-            name='test4'
-            rollNo='30'
-            Link='test.com'
-            phoneNo='test-900'
+            name=''
+            Github=''
+            LinkedIn=''
+            email=''
           />
-        </Content>
-      </Wrapper>
-      <Wrapper>
-        <Content className='first'>
           <ContactInfo
-            image={NoImage}
-            name='test5'
-            rollNo='30'
-            Link='test.com'
-            phoneNo='test-900'
+            image={AdityaImage}
+            name='Aditya Yadav'
+            Github='https://github.com/aadi58002'
+            LinkedIn='https://www.linkedin.com/in/aditya-yadav-a510511a2/'
+            email='LCS2021034@iiitl.ac.in'
           />
-        </Content>
-        <Content>
-          <ContactInfo
-            image={NoImage}
-            name='test6'
-            rollNo='30'
-            Link='test.com'
-            phoneNo='test-900'
-          />
-        </Content>
-        <Content className='last'>
-          <ContactInfo
-            image={NoImage}
-            name='test7'
-            rollNo='30'
-            Link='test.com'
-            phoneNo='test-900'
-          />
-        </Content>
       </Wrapper>
     </>
   );

@@ -13,9 +13,6 @@ const Footer = () => (
       <Link to='/ContactUs' style={{ textDecoration: 'none' }}>
         <p>Contact Us</p>
       </Link>
-      <Link to='/Login' style={{ textDecoration: 'none' }}>
-        <p>Login</p>
-      </Link>
     </Content>
   </Wrapper>
 );
