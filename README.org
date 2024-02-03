@@ -10,18 +10,18 @@ The Movie Review website
 
 [[file:Readme-images/Src-Structure.png]]
 
-Components:  The Components folder contains all the small individual Components which come together to form the website
+Components:  The Components folder contains all the small individual Components\\ which come together to form the website
 
-Common:      The Common folder contains all the components which were used more than once on several pages
+Common:      The Common folder contains all the components which\\ were used more than once on several pages
 
-Hooks:       The Hooks folder contains function which perform certains task and then cause a re render of the website to occur
+Hooks:       The Hooks folder contains function which perform certains\\ task and then cause a re render of the website to occur
 
 * React
 The main point of react comes down to two point
 ** React has small components which can be defined in seperate files and then used as tag in the main page
 The example below is a small footer containing two link
-#+ATTR_HTML: :width 1000px
-[[file:Readme-images/footer-example.png]]
+#+ATTR_HTML: :width 1000px :float right
+[[file:Readme-images/Common/footer-presentation.png]]
 
 #+begin_src html
 const Footer = () => (
@@ -83,5 +83,4 @@ export const useHomeFetch = () => {
 #+end_src
 
 * Website Pages
-** Home
-[[file:src/components/Home/Home_README.org][Main Home Page]]
+** [[file:src/components/Home/Home_README.org][Main Home Page]]

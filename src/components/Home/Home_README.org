@@ -1,4 +1,19 @@
 #+title: Home_readme
 
 * Main structure
-** Test
+** Header Component
+#+ATTR_HTML: :width 1000px
+[[file:~/Classes/WD/Project/React/movies-review/Readme-images/Common/header-presentation.png]]
+[[file:~/Classes/WD/Project/React/movies-review/src/components/Common/Header/Header_README.org][Header Component]]
+** Banner Image Component
+#+ATTR_HTML: :width 500px
+[[file:~/Classes/WD/Project/React/movies-review/Readme-images/Home/BannerImage-presentation.png]]
+[[file:BannerImage/BannerImage_README.org][Banner Image Readme]]
+** Search Bar
+#+ATTR_HTML: :width 1000px
+[[file:~/Classes/WD/Project/React/movies-review/Readme-images/Home/SearchbarImage-presentation.png]]
+[[file:SearchBar/SearchBar_README.org][Search Bar Readme]]
+** Grid
+*** layout
+*** Thumbnail
+** Footer
