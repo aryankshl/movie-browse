@@ -7,8 +7,7 @@
 [[file:~/Classes/WD/Project/React/movies-review/src/components/Common/Header/Header_README.org][Header Component]]
 ** Banner Image Component
 #+ATTR_HTML: :width 500px
-[[file:~/Classes/WD/Project/React/movies-review/Readme-images/Home/BannerImage-presentation.png]]
-[[file:BannerImage/BannerImage_README.org][Banner Image Readme]]
+[[file:BannerImage/BannerImage_README.org][file:~/Classes/WD/Project/React/movies-review/Readme-images/Home/BannerImage-presentation.png]]
 ** Search Bar
 #+ATTR_HTML: :width 1000px
 [[file:~/Classes/WD/Project/React/movies-review/Readme-images/Home/SearchbarImage-presentation.png]]
