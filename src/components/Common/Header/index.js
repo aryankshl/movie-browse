@@ -14,10 +14,12 @@ const Header = () => (
       <Link to='/'>
         <MainLogoImg src={MainLogo} alt="tmdb-logo" />
       </Link>
-      <MainName>Movies Review</MainName>
-      <Link to='/Login' style={{ textDecoration: 'none' }}>
-        <p className='Login'>Login</p>
+      <Link to='/' style={{ textDecoration: 'none' }}>
+        <MainName>Movies Review</MainName>
       </Link>
+      <p className='Login'>
+        <Link to='/Login' style={{ textDecoration: 'none' }}>Login</Link>
+      </p>
       <DatabaseLogoImg src={DatabaseLogo} alt="rmdb-logo" />
     </Content>
   </Wrapper>
