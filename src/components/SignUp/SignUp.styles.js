@@ -32,7 +32,7 @@ export const Wrapper = styled.div`
   }
 `;
 
-export const SignUp = styled.p`
+export const Login = styled.p`
   font-weight: bolder;
   font-size: 20px;
 `;

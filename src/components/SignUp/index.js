@@ -3,11 +3,13 @@ import { Link } from 'react-router-dom';
 // Components
 import Button from './../Common/Button';
 // Styles
-import { Wrapper, SignUp } from './Login.styles';
+import { Wrapper, Login } from './SignUp.styles';
 
-const Login = () => {
+const SignUp = () => {
+
 
   const [username, setUserName] = useState('');
+  const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
   return (
@@ -17,24 +19,31 @@ const Login = () => {
       <label>Username</label>
       <input
         type='text'
-        placeholder='username'
+        placeholder='Username'
         value={username}
-        onChange={(e) => setUserName(e.target.value)}
+        onChange="Function that handles the input"
+      />
+      <label>Email</label>
+      <input
+        type='email'
+        placeholder='Email'
+        value={email}
+        onChange="Function that handles the input"
       />
       <label>Password</label>
       <input
         type='password'
-        placeholder='PassWord'
+        placeholder='Password'
         value={password}
-        onChange={(e) => setPassword(e.target.value)}
+        onChange="Functions that handles the input"
       />
-      <Button text='Login' callback="Function that handles the submittion" />
-      <Link to='/SignUp' style={{ textDecoration: 'none' }}>
-        <SignUp>Sign up</SignUp>
+      <Button text='Sign Up' callback="Function that handles the submittion" />
+      <Link to='/Login' style={{ textDecoration: 'none' }}>
+        <Login>Login</Login>
       </Link>
       <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
     </Wrapper>
   );
 };
 
-export default Login;
+export default SignUp;
