@@ -19,6 +19,14 @@ export const GlobalStyle = createGlobalStyle`
         font-family: 'Abel', sans-serif;
     }
 
+    :-webkit-any-link {
+        color: var(--white);
+    }
+
+    html, body, #root {
+        min-height:100vh;
+    }
+
     body {
         margin: 0;
         padding: 0;
