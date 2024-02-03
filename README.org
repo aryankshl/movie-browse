@@ -1,14 +1,14 @@
 #+TITLE: Movies Review
 #+AUTHOR: Aditya Yadav
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="Readme-resources/style.css" />
 
 * Movie Review
 #+ATTR_HTML: :width 1000px
-[[file:Readme-images/main-page.png]]
-
+[[file:Readme-resources/main-page.png]]
 The Movie Review website
 * Directory structure
-#+ATTR_HTML: :class test :style float:left;
-[[file:Readme-images/Src-Structure.png]]
+#+ATTR_HTML: :width 300px
+[[file:Readme-resources/Src-Structure.png]]
 
 Components : The Components folder contains all the small individual \\
              Components which come together to form the website
@@ -22,7 +22,7 @@ The main point of react comes down to two point
 ** React has small components which can be defined in seperate files and then used as tag in the main page
 The example below is a small footer containing two link
 #+ATTR_HTML: :width 1000px
-[[file:Readme-images/Common/footer-presentation.png]]
+[[file:Readme-resources/Common/footer-presentation.png]]
 
 #+begin_src html
 const Footer = () => (

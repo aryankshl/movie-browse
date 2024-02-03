@@ -1,17 +1,23 @@
 #+title: Home_readme
+#+AUTHOR: Aditya Yadav
 
+[[file:~/Classes/WD/Project/React/movies-review/README.org]]
 * Main structure
 ** Header Component
 #+ATTR_HTML: :width 1000px
-[[file:../Common/Header/Header_README.org][file:../../../Readme-images/Common/header-presentation.png]]
+[[file:../Common/Header/Header_README.org][file:../../../Readme-resources/Common/header-presentation.png]]
 ** Banner Image Component
 #+ATTR_HTML: :width 500px
-[[file:BannerImage/BannerImage_README.org][file:BannerImage/BannerImage_README.org]]
+[[file:BannerImage/BannerImage_README.org][file:../../../Readme-resources/Home/BannerImage-presentation.png]]
 ** Search Bar
 #+ATTR_HTML: :width 1000px
-[[file:~/Classes/WD/Project/React/movies-review/Readme-images/Home/SearchbarImage-presentation.png]]
-[[file:SearchBar/SearchBar_README.org][Search Bar Readme]]
+[[file:SearchBar/SearchBar_README.org][file:../../../Readme-resources/Home/SearchbarImage-presentation.png]]
 ** Grid
 *** layout
+[[file:../../../Readme-resources/Common/Grid-presentation.png][file:../Common/Grid/Grid_README.org]]
 *** Thumbnail
+[[file:../Common/Thumbnail/thumbnail_README.org][file:../../../Readme-resources/Common/Thumbnail-presentation.png]]
+** Button (Load More)
+[[file:../Common/Button/Button_README.org][file:../../../Readme-resources/Common/Button-presentation.png]]
 ** Footer
+[[file:../Common/Footer/Footer_README.org][file:../../../Readme-resources/Common/footer-presentation.png]]
