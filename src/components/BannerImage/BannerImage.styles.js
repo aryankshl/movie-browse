@@ -15,6 +15,9 @@ export const Wrapper = styled.div`
   width: 48%;
   position: relative;
   animation: animateHeroImage 1s;
+  @media screen and (max-width: 1300px){
+    width: 100%;
+  }
   @keyframes animateHeroImage {
     from {
       opacity: 0;
