@@ -7,15 +7,15 @@
 
 The Movie Review website
 * Directory structure
-#+ATTR_HTML: :style float:left;
+#+ATTR_HTML: :class "test" :style float:left;
 [[file:Readme-images/Src-Structure.png]]
 
 Components : The Components folder contains all the small individual \\
-\\           Components which come together to form the website
+             Components which come together to form the website
 Common : The Common folder contains all the components which \\
-\\       were used more than once on several pages
+         were used more than once on several pages
 Hooks : The Hooks folder contains function which perform certains \\
-\\      task and then cause a re render of the website to occur
+        task and then cause a re render of the website to occur
 
 * React
 The main point of react comes down to two point
