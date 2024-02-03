@@ -21,30 +21,40 @@ const Home = () => {
 
   if(error) return(<div>Something Went Wrong ...</div>)
 
+  function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
+  }
+
+  let banner1=getRandomInt(0,19);
+  let banner2=getRandomInt(0,19);
+  if(banner1===banner2)
+    banner2++;
   return (
     <>
-      {!searchTerm && state.results[0] && state? (
+      {!searchTerm && state.results[banner1] && state? (
         <BannerImage
           clickable={true}
-          movieId={state.results[0].id}
-          image={`${IMAGE_BASE_URL}${BACKDROP_SIZE}${state.results[0].backdrop_path}`}
-          title={state.results[0].original_title}
-          text={state.results[0].overview}
-          release_date={state.results[0].release_date}
-          vote_count={state.results[0].vote_count}
-          stars={state.results[0].vote_average}
+          movieId={state.results[banner1].id}
+          image={`${IMAGE_BASE_URL}${BACKDROP_SIZE}${state.results[banner1].backdrop_path}`}
+          title={state.results[banner1].original_title}
+          text={state.results[banner1].overview}
+          release_date={state.results[banner1].release_date}
+          vote_count={state.results[banner1].vote_count}
+          stars={state.results[banner1].vote_average}
         />
       ) : null}
-      {!searchTerm && state.results[1] ? (
+      {!searchTerm && state.results[banner2] ? (
         <BannerImage
           clickable={true}
-          movieId={state.results[1].id}
-          image={`${IMAGE_BASE_URL}${BACKDROP_SIZE}${state.results[1].backdrop_path}`}
-          title={state.results[1].original_title}
-          text={state.results[1].overview}
-          release_date={state.results[1].release_date}
-          vote_count={state.results[1].vote_count}
-          stars={state.results[1].vote_average}
+          movieId={state.results[banner2].id}
+          image={`${IMAGE_BASE_URL}${BACKDROP_SIZE}${state.results[banner2].backdrop_path}`}
+          title={state.results[banner2].original_title}
+          text={state.results[banner2].overview}
+          release_date={state.results[banner2].release_date}
+          vote_count={state.results[banner2].vote_count}
+          stars={state.results[banner2].vote_average}
         />
       ) : null}
       <Searchbar setSearchTerm={setSearchTerm}/>

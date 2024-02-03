@@ -42,7 +42,6 @@ export const useHomeFetch = () => {
 
   // Fetching the movies from the datbase
   useEffect(() => {
-
     if(!searchTerm){
       const sessionState = isPersistedState('homeState');
       if(sessionState){
