@@ -6,7 +6,7 @@ import BannerImage from './BannerImage';
 import Grid from './../Common/Grid';
 import Thumbnail from './../Common/Thumbnail';
 import Spinner from './../Common/Spinner'
-import Button from './Button';
+import Button from './../Common/Button';
 import Searchbar from './SearchBar';
 
 // Hook

@@ -22,6 +22,16 @@ export const Content = styled.div`
   max-width: var(--maxWidth);
   padding: 0;
   margin: 0 auto;
+
+  .Login{
+     font-weight: bolder;
+     font-size: 20px;
+     background: var(--midGrey);
+     margin-left: 500px;
+     padding: 5px 30px;
+     border: 2px solid red;
+     color: var(--white);
+  }
 `;
 
 export const MainLogoImg = styled.img`
