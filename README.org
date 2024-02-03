@@ -10,12 +10,9 @@ The Movie Review website
 #+ATTR_HTML: :width 300px
 [[file:Readme-resources/Src-Structure.png]]
 
-Components : The Components folder contains all the small individual \\
-             Components which come together to form the website
-Common : The Common folder contains all the components which \\
-         were used more than once on several pages
-Hooks : The Hooks folder contains function which perform certains \\
-        task and then cause a re render of the website to occur
+Components : The Components folder contains all the small individual Components which come together to form the website. \\
+Common : The Common folder contains all the components which were used more than once on several pages. \\
+Hooks : The Hooks folder contains function which perform certains task and then cause a re render of the website to occur. \\
 
 * React
 The main point of react comes down to two point
