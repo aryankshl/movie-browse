@@ -1,5 +1,10 @@
 import styled from 'styled-components';
 
+export const Clear =styled.div`
+      clear: both;
+      height: 60px;
+`;
+
 export const Wrapper = styled.div`
   background: var(--darkGrey);
   position: fixed;

@@ -1,18 +1,13 @@
 import styled from 'styled-components';
 
-export const Wrapper = styled.div`
-    display: flex;
-    flex-wrap: wrap;
-    flex-basis: auto;
-    justify-content: space-around;
-    margin: 0 auto;
-    max-width: var(--maxWidth);
-    padding: 20px;
-`;
-
 export const CenteredContent = styled.div`
-    text-align: center;
-    margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
 `;
 
 export const Heading = styled.h1`
@@ -42,4 +37,37 @@ a {
 }`;
 
 export const Form = styled.form`
+  color: var(--white);
+  font-size: 24px;
+  margin: 0 auto;
+  table {
+      text-align: left;
+      label {
+          font-size: 15px;
+      }
+      td{
+          padding: 2px;
+      }
+      td {
+          input {
+              width: 100%;
+          }
+          textarea {
+              margin: 2px 0;
+          }
+      }
+      .submit-col{
+          text-align: center;
+      }
+  }
+  .submit_button {
+      border: 0px;
+      font-size: 16px;
+      font-weight: bolder;
+      background: var(--darkGrey);
+      border-radius: 5px;
+      padding: 10px;
+      color: var(--white);
+      width: 70%;
+  }
 `;
