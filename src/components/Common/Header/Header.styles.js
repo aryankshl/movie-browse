@@ -34,6 +34,9 @@ export const Content = styled.div`
      :hover {
         opacity: 0.8;
      }
+     * {
+        color: var(--white);
+     }
   }
 `;
 
