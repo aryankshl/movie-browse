@@ -12,7 +12,7 @@ import RaushanImage from '../../images/Raushan-kumar-profile-picture.jpeg';
 import AdityaImage from '../../images/Aditya-Yadav-profile-picture.jpg';
 import AnimeshImage from '../../images/Animesh-sahu-profile-picture.jpeg';
 import SatvikImage from '../../images/Satvik-Dubey-Profile-Picture.jpg';
-// import Image from '../../images/';
+import ManiImage from '../../images/ManiRajGupta_profile_picture.jpeg';
 // // import Image from '../../images/';
 // import Image from '../../images/';
 
@@ -34,7 +34,7 @@ const AboutUs = () => {
       </CenteredHeader>
       <Wrapper>
           <Profile
-            image={NoImage}
+            image={ManiImage}
             name='Mani Raj Gupta'
             rollNo='LCS2021037'
             eMail='LCS2021037@iiitl.ac.in'
