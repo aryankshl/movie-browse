@@ -195,6 +195,7 @@ the spinner tag
 #+begin_src js
       {loading && <Spinner />}
 #+end_src
+[[file:../Common/Spinner/Spinner_README.org][file:../../../Readme-resources/Common/Spinner-presentation.png]]
 **** Button
 Here we are showing a "Load More" Button in the bottom which we clicked call the setIsLoadinMore function
 which request more movies from the useHomeFetch hook which further that request to the API.
