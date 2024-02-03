@@ -82,3 +82,10 @@ export const useHomeFetch = () => {
 
 * Website Pages
 ** [[file:src/components/Home/Home_README.org][Main Home Page]]
+** Database Endpoints (src/DB.js)
+
+ - GET `:3001/register?username=${username}&email=${email}&password=${password}` - register a new user
+ - GET `:3001/login?email=${email}&password=${password}` - verifies login details
+ - GET `:3001/view_count?email=${email}` - pulls total movies page visit count of user with given email id
+ - POST `:3001/view_count?email=${email}` - increments view count of a user with given email by 1
+
