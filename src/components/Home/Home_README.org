@@ -3,11 +3,10 @@
 * Main structure
 ** Header Component
 #+ATTR_HTML: :width 1000px
-[[file:~/Classes/WD/Project/React/movies-review/Readme-images/Common/header-presentation.png]]
-[[file:~/Classes/WD/Project/React/movies-review/src/components/Common/Header/Header_README.org][Header Component]]
+[[file:../Common/Header/Header_README.org][file:../../../Readme-images/Common/header-presentation.png]]
 ** Banner Image Component
 #+ATTR_HTML: :width 500px
-[[file:BannerImage/BannerImage_README.org][file:~/Classes/WD/Project/React/movies-review/Readme-images/Home/BannerImage-presentation.png]]
+[[file:BannerImage/BannerImage_README.org][file:BannerImage/BannerImage_README.org]]
 ** Search Bar
 #+ATTR_HTML: :width 1000px
 [[file:~/Classes/WD/Project/React/movies-review/Readme-images/Home/SearchbarImage-presentation.png]]
