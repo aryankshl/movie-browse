@@ -7,7 +7,7 @@
 
 The Movie Review website
 * Directory structure
-#+ATTR_HTML: :margin-left: auto
+#+ATTR_HTML: :style float: right
 [[file:Readme-images/Src-Structure.png]]
 
 *** Components
