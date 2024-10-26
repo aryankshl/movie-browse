@@ -9,9 +9,9 @@ const Footer = () => (
     <Clear />
     <Wrapper>
       <Content>
-        <Link to='/AboutUs' style={{ textDecoration: 'none' }}>
+        {/* <Link to='/AboutUs' style={{ textDecoration: 'none' }}>
           <p>About Us</p>
-        </Link>
+        </Link> */}
         <Link to='/ContactUs' style={{ textDecoration: 'none' }}>
           <p>Contact Us</p>
         </Link>

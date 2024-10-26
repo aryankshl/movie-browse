@@ -27,7 +27,7 @@
     "scripts": {
         "start": "npm-run-all --parallel express_run react_run",
         "express_run": "node src/DB.js",
-        "react_run": "react-scripts start",
+        "react_run": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
         "serve": "serve -s build",
         "build": "react-scripts build",
         "test": "react-scripts test",

@@ -1,11 +1,11 @@
-#+TITLE: Movies Review
+#+TITLE: Movie Browse
 #+AUTHOR: Aryan Kaushal
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="Readme-resources/style.css" />
 
-* Movie Review
+* Movie Browse
 #+ATTR_HTML: :width 1000px
 [[file:Readme-resources/main-page.png]]
-The Movie Review website
+The Movie Browse website
 * Directory structure
 #+ATTR_HTML: :width 300px
 [[file:Readme-resources/Src-Structure.png]]

@@ -1,9 +1,9 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Wrapper = styled.div`
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 10000;
   background: var(--darkGrey);
   padding: 0 20px;
 `;
@@ -13,7 +13,7 @@ export const MainName = styled.div`
   font-size: 40px;
   font-weight: bolder;
   letter-spacing: 4px;
-  @media screen and (max-width: 500px){
+  @media screen and (max-width: 500px) {
     display: none;
   }
 `;
@@ -26,20 +26,20 @@ export const Content = styled.div`
   padding: 0;
   margin: 0 auto;
 
-  .Login{
-     font-weight: bolder;
-     font-size: 20px;
-     background: var(--midGrey);
-     margin-left: 500px;
-     padding: 5px 30px;
-     border: 2px solid red;
-     color: var(--white);
-     :hover {
-        opacity: 0.8;
-     }
-     * {
-        color: var(--white);
-     }
+  .Login {
+    font-weight: bolder;
+    font-size: 20px;
+    background: var(--midGrey);
+    margin-left: 500px;
+    padding: 5px 30px;
+    border: 2px solid red;
+    color: var(--white);
+    :hover {
+      opacity: 0.8;
+    }
+    * {
+      color: var(--white);
+    }
   }
 `;
 
