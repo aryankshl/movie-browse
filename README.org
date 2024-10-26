@@ -4,7 +4,7 @@
 
 * Movie Browse
 #+ATTR_HTML: :width 1000px
-[[file:Readme-resources/main-page.png]]
+[[file:Readme-resources/image.png]]
 The Movie Browse website
 * Directory structure
 #+ATTR_HTML: :width 300px
